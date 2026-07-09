@@ -35,13 +35,6 @@ export default function Home() {
                     </Suspense>
 
                     <Suspense fallback={<SectionLoader />}>
-                        <SectionLivros
-                            title="Recomendados"
-                            type="recommended"
-                        />
-                    </Suspense>
-
-                    <Suspense fallback={<SectionLoader />}>
                         <SectionLivros title="BookTok" type="booktok" />
                     </Suspense>
                 </HomepageClient>
